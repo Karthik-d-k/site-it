@@ -29,6 +29,6 @@ if(!localStorage.getItem('name')) {
     heading.textContent = 'Switch the bit, ' + storedName;
 }
 
-button.onclick = function() {
+button.onclick = () => {
     setUserName();
 }
